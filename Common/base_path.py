@@ -12,5 +12,8 @@ basepath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 测试用例
 data_dir = os.path.join(basepath, "Test_Data")
 data_file = os.path.join(data_dir, "cases.xlsx")
+
+# Conf
+conf_dir = os.path.join(basepath, "Confs")
 if __name__ == '__main__':
     print(data_file)
