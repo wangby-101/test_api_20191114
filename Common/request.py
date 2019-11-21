@@ -33,7 +33,7 @@ class Request:
         return self.res.json()
 
     def get_cookies(self, key=None):
-        if key:
+        if key is None:
             return self.res.cookies
         else:
             return self.res.cookies[key]
@@ -42,4 +42,4 @@ if __name__ == '__main__':
     url = "/member/login"
     data = {"mobilephone":"15942123962","pwd":"abc1234"}
     res = Request("get", url=url, data=data)
-    print(res.get_text())
+    print(res.get_cookies())

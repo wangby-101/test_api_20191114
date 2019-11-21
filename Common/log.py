@@ -40,7 +40,6 @@ def remove_handler(level):
     logger.removeHandler(MyLogger.report_handler)
 
 class MyLogger:
-    print(get_log_dir())
     log_dir = get_log_dir()
     error_file = os.path.join(log_dir, 'error.log')
     info_file = os.path.join(log_dir, 'info.log')

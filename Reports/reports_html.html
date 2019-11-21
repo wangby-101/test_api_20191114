@@ -116,9 +116,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">API</h1>
 <p class='attribute'><strong>测试人员 : </strong> 王柄印</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-11-21 13:33:31</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.939045</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 4，通过 4，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-11-21 14:28:49</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:01.937949</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 7，通过 7，通过率= 100.00%</p>
 
 <p class='description'>API测试报告</p>
 </div>
@@ -127,8 +127,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 4 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 7 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 7 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -168,14 +168,15 @@ function html_escape(s) {
     <div id='div_pt1_1' class="collapse in" align="left">
     <pre>
     
-pt1_1: 2019-11-21 13:33:31,026-DEBUG-开启执行测试
-2019-11-21 13:33:31,026-INFO-================测试数据=================
+pt1_1: 2019-11-21 14:28:49,928-DEBUG-开启执行测试
+2019-11-21 14:28:49,928-INFO-================测试数据=================
         用例编号：1
         用例名称：正常登录
         测试接口：/member/login
         测试数据：{'mobilephone': '15942123962', 'pwd': 'abc1234'}
-2019-11-21 13:33:31,230-INFO-用例执1行通过
-2019-11-21 13:33:31,315-DEBUG-结束测试
+&lt;RequestsCookieJar[&lt;Cookie JSESSIONID=F230636A77654C65A5E7A66038D0A87E for test.lemonban.com/futureloan&gt;]&gt;
+2019-11-21 14:28:50,132-INFO-用例执1行通过
+2019-11-21 14:28:50,237-DEBUG-结束测试
 
 
     </pre>
@@ -194,14 +195,15 @@ pt1_1: 2019-11-21 13:33:31,026-DEBUG-开启执行测试
     <div id='div_pt1_2' class="collapse in" align="left">
     <pre>
     
-pt1_2: 2019-11-21 13:33:31,315-DEBUG-开启执行测试
-2019-11-21 13:33:31,316-INFO-================测试数据=================
+pt1_2: 2019-11-21 14:28:50,238-DEBUG-开启执行测试
+2019-11-21 14:28:50,238-INFO-================测试数据=================
         用例编号：2
         用例名称：输入错误的密码
         测试接口：/member/login
         测试数据：{'mobilephone': '15942123962', 'pwd': '12345678'}
-2019-11-21 13:33:31,507-INFO-用例执2行通过
-2019-11-21 13:33:31,576-DEBUG-结束测试
+&lt;RequestsCookieJar[]&gt;
+2019-11-21 14:28:50,425-INFO-用例执2行通过
+2019-11-21 14:28:50,503-DEBUG-结束测试
 
 
     </pre>
@@ -220,14 +222,15 @@ pt1_2: 2019-11-21 13:33:31,315-DEBUG-开启执行测试
     <div id='div_pt1_3' class="collapse in" align="left">
     <pre>
     
-pt1_3: 2019-11-21 13:33:31,576-DEBUG-开启执行测试
-2019-11-21 13:33:31,577-INFO-================测试数据=================
+pt1_3: 2019-11-21 14:28:50,503-DEBUG-开启执行测试
+2019-11-21 14:28:50,504-INFO-================测试数据=================
         用例编号：3
         用例名称：不输入密码
         测试接口：/member/login
         测试数据：{'mobilephone': '15942123962', 'pwd': ''}
-2019-11-21 13:33:31,714-INFO-用例执3行通过
-2019-11-21 13:33:31,787-DEBUG-结束测试
+&lt;RequestsCookieJar[]&gt;
+2019-11-21 14:28:50,659-INFO-用例执3行通过
+2019-11-21 14:28:50,743-DEBUG-结束测试
 
 
     </pre>
@@ -246,14 +249,102 @@ pt1_3: 2019-11-21 13:33:31,576-DEBUG-开启执行测试
     <div id='div_pt1_4' class="collapse in" align="left">
     <pre>
     
-pt1_4: 2019-11-21 13:33:31,787-DEBUG-开启执行测试
-2019-11-21 13:33:31,788-INFO-================测试数据=================
+pt1_4: 2019-11-21 14:28:50,744-DEBUG-开启执行测试
+2019-11-21 14:28:50,744-INFO-================测试数据=================
         用例编号：4
         用例名称：不输入手机号码
         测试接口：/member/login
         测试数据：{'mobilephone': '', 'pwd': 'abc1234'}
-2019-11-21 13:33:31,910-INFO-用例执4行通过
-2019-11-21 13:33:31,965-DEBUG-结束测试
+&lt;RequestsCookieJar[]&gt;
+2019-11-21 14:28:50,929-INFO-用例执4行通过
+2019-11-21 14:28:50,992-DEBUG-结束测试
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_recharge.TestRecharge</td>
+    <td class="text-center">3</td>
+    <td class="text-center">3</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',3)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testrecharge_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in" align="left">
+    <pre>
+    
+pt2_1: 2019-11-21 14:28:50,993-DEBUG-开始测试
+2019-11-21 14:28:50,993-INFO-================测试数据=================
+                用例编号：1
+                用例名称：正常充值
+                测试接口：/member/recharge
+                测试数据：{'mobilephone': '15942123962', 'amount': '1'}
+2019-11-21 14:28:51,373-INFO-用例1执行通过
+2019-11-21 14:28:51,458-DEBUG-清除数据
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testrecharge_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in" align="left">
+    <pre>
+    
+pt2_2: 2019-11-21 14:28:51,458-DEBUG-开始测试
+2019-11-21 14:28:51,459-INFO-================测试数据=================
+                用例编号：2
+                用例名称：充值手机号码不存在
+                测试接口：/member/recharge
+                测试数据：{'mobilephone': '12345678985', 'amount': ''}
+2019-11-21 14:28:51,612-INFO-用例2执行通过
+2019-11-21 14:28:51,680-DEBUG-清除数据
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>testrecharge_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt2_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt2_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse in" align="left">
+    <pre>
+    
+pt2_3: 2019-11-21 14:28:51,680-DEBUG-开始测试
+2019-11-21 14:28:51,680-INFO-================测试数据=================
+                用例编号：3
+                用例名称：充值金额小数点大于两位
+                测试接口：/member/recharge
+                测试数据：{'mobilephone': '15810447656', 'amount': '33.2222'}
+2019-11-21 14:28:51,783-INFO-用例3执行通过
+2019-11-21 14:28:51,866-DEBUG-清除数据
 
 
     </pre>
@@ -263,8 +354,8 @@ pt1_4: 2019-11-21 13:33:31,787-DEBUG-开启执行测试
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>4</td>
-    <td>4</td>
+    <td>7</td>
+    <td>7</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>

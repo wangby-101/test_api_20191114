@@ -11,11 +11,12 @@ from Common.base_path import data_file
 from Common.do_excel import Do_Excel
 from Common.log import MyLogger
 from Common.request import Request
+from Common.basic_data import Context
 
 de = Do_Excel(data_file)
 cases = de.get_case('login')
 myloger = MyLogger()
-COOKIES = None
+
 @ddt
 class TestLogin(unittest.TestCase):
     def setUp(self):
@@ -31,9 +32,9 @@ class TestLogin(unittest.TestCase):
         测试接口：{2}
         测试数据：{3}""".format(case.case_id, case.title, case.url, datas))
         res = Request(method=case.method, url=case.url, data=datas)
-        # if res.get_cookies():
-        #     global COOKIES
-        #     COOKIES = res.get_cookies()
+        print(res.get_cookies())
+        if res.get_cookies():
+            setattr(Context, 'cookies', res.get_cookies())
         try:
             self.assertEqual(case.expected, res.get_text())
             myloger.info('用例执{}行通过'.format(case.case_id))
@@ -42,3 +43,5 @@ class TestLogin(unittest.TestCase):
             myloger.info('用例执{}行失败'.format(case.case_id))
             de.write_result('login', case_id=case.case_id, actual=res.get_text(), result='False')
             raise e
+if __name__ == '__main__':
+    pass
