@@ -15,5 +15,8 @@ data_file = os.path.join(data_dir, "cases.xlsx")
 
 # Conf
 conf_dir = os.path.join(basepath, "Confs")
+
+# Log
+logs_dir = os.path.join(basepath, 'Logs')
 if __name__ == '__main__':
     print(data_file)
