@@ -36,6 +36,7 @@ class TestLogin(unittest.TestCase):
         #     COOKIES = res.get_cookies()
         try:
             self.assertEqual(case.expected, res.get_text())
+            myloger.info('用例执{}行通过'.format(case.case_id))
             de.write_result('login', case_id=case.case_id, actual=res.get_text(), result='Pass')
         except AssertionError as e:
             myloger.info('用例执{}行失败'.format(case.case_id))

@@ -18,5 +18,12 @@ conf_dir = os.path.join(basepath, "Confs")
 
 # Log
 logs_dir = os.path.join(basepath, 'Logs')
+
+# testcase
+testcases_dir = os.path.join(basepath, 'Test_Cases')
+
+# 测试报告
+reports_dir = os.path.join(basepath, 'Reports')
+reports_html = os.path.join(reports_dir, 'reports_html.html')
 if __name__ == '__main__':
     print(data_file)

@@ -7,6 +7,7 @@
 import os
 import time
 import logging
+import HTMLTestRunnerNew
 from Common.base_path import logs_dir
 
 logger = logging.getLogger('wangbingyin')
@@ -28,6 +29,7 @@ def add_handler(level):
     else:
         logger.addHandler(MyLogger.info_handler)
     logger.addHandler(MyLogger.ch)
+    logger.addHandler(MyLogger.report_handler)
 
 def remove_handler(level):
     if level == 'ERROR':
@@ -35,6 +37,7 @@ def remove_handler(level):
     else:
         logger.removeHandler(MyLogger.info_handler)
     logger.removeHandler(MyLogger.ch)
+    logger.removeHandler(MyLogger.report_handler)
 
 class MyLogger:
     print(get_log_dir())
@@ -54,6 +57,10 @@ class MyLogger:
     info_handler = logging.FileHandler(filename=info_file, encoding='utf-8')
     info_handler.setLevel(logging.INFO)
     info_handler.setFormatter(formatter)
+
+    report_handler = logging.StreamHandler(HTMLTestRunnerNew.stdout_redirector)
+    report_handler.setLevel(logging.DEBUG)
+    report_handler.setFormatter(formatter)
 
     @staticmethod
     def debug(msg):
