@@ -13,7 +13,7 @@ class Case:
         self.url = None
         self.data = None
         self.method = None
-        self.expect = None
+        self.expected = None
         self.actual = None
         self.result = None
 
@@ -36,8 +36,8 @@ class Do_Excel:
            case.case_id = sheet.cell(row, column=1).value
            case.title = sheet.cell(row, column=2).value
            case.url = sheet.cell(row, column=3).value
-           case.method = sheet.cell(row, column=5).value
            case.data = sheet.cell(row, column=4).value
+           case.method = sheet.cell(row, column=5).value
            case.expected = sheet.cell(row, column=6).value
            cases.append(case)
         return cases
