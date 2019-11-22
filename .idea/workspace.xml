@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a4d324-1149-460b-99d1-984d89eb078a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/email_uitl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/email_uitl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/email_uitl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/reports_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/reports_html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Data/cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Data/cases.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="220">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="e#151#166#0" expanded="true" />
               </folding>
@@ -103,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/email_uitl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+            <state relative-caret-position="295">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
                 <element signature="e#157#163#0" expanded="true" />
               </folding>
@@ -149,7 +151,6 @@
         <option value="$PROJECT_DIR$/Confs/switch.conf" />
         <option value="$PROJECT_DIR$/Common/Configs.py" />
         <option value="$PROJECT_DIR$/Common/do_excel.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/Common/base_path.py" />
         <option value="$PROJECT_DIR$/Common/log.py" />
         <option value="$PROJECT_DIR$/Common/basic_data.py" />
@@ -158,6 +159,7 @@
         <option value="$PROJECT_DIR$/Test_Cases/test_recharge.py" />
         <option value="$PROJECT_DIR$/Common/email.py" />
         <option value="$PROJECT_DIR$/Common/email_uitl.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -238,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.email_uitl">
+  <component name="RunManager" selected="Python.run">
     <configuration name="email (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_api_20191114" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,10 +353,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.email_uitl" />
         <item itemvalue="Python.email (1)" />
         <item itemvalue="Python.email" />
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.request" />
       </list>
     </recent_temporary>
@@ -376,7 +378,7 @@
       <workItem from="1574143069812" duration="3129000" />
       <workItem from="1574214221576" duration="2196000" />
       <workItem from="1574302171406" duration="12017000" />
-      <workItem from="1574389647986" duration="4436000" />
+      <workItem from="1574389647986" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="文件目录">
       <created>1573797297488</created>
@@ -421,7 +423,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39339000" />
+    <option name="totallyTimeSpent" value="41306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,12 +438,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27575758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1219697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24752475" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22112212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,14 +471,14 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test_api_20191114$email.coverage" NAME="email Coverage Results" MODIFIED="1574401006869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/test_api_20191114$do_excel.coverage" NAME="do_excel Coverage Results" MODIFIED="1573801425218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/test_api_20191114$run.coverage" NAME="run Coverage Results" MODIFIED="1574317728821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_api_20191114$run.coverage" NAME="run Coverage Results" MODIFIED="1574404075449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_api_20191114$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1574317249730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Cases" />
     <SUITE FILE_PATH="coverage/test_api_20191114$Unittests_in_test_recharge_py.coverage" NAME="Unittests in test_recharge.py Coverage Results" MODIFIED="1574315743511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Cases" />
     <SUITE FILE_PATH="coverage/test_api_20191114$basic_data.coverage" NAME="basic_data Coverage Results" MODIFIED="1574316702827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/test_api_20191114$Configs.coverage" NAME="Configs Coverage Results" MODIFIED="1573799616297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/test_api_20191114$Unittests_for_test_recharge_TestRecharge_testrecharge.coverage" NAME="Unittests for test_recharge.TestRecharge.testrecharge Coverage Results" MODIFIED="1574315704377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Cases" />
     <SUITE FILE_PATH="coverage/test_api_20191114$base_path.coverage" NAME="base_path Coverage Results" MODIFIED="1573796977167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/test_api_20191114$email_uitl.coverage" NAME="email_uitl Coverage Results" MODIFIED="1574402516368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/test_api_20191114$email_uitl.coverage" NAME="email_uitl Coverage Results" MODIFIED="1574403951916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/test_api_20191114$email__1_.coverage" NAME="email (1) Coverage Results" MODIFIED="1574402134846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/test_api_20191114$request.coverage" NAME="request Coverage Results" MODIFIED="1574317391843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/test_api_20191114$log.coverage" NAME="log Coverage Results" MODIFIED="1574304301302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
@@ -657,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#151#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/base_path.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
@@ -676,10 +668,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Common/email_uitl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        <state relative-caret-position="295">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding>
             <element signature="e#157#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#151#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
